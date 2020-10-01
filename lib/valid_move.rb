@@ -1,12 +1,12 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
   
-  if board[index] == be_between?(1, 9)
-    return true
-  elsif position_taken?(board, index) == true
+  
+  if position_taken?(board, index) == true
     return false
    elsif position_taken?(board, index) == false
     return true
+    
   else return false
     
   end
